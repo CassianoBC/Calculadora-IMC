@@ -1,0 +1,17 @@
+.title {
+    font-size: 36px;
+    margin: 25px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    background-color: var(--corSecundaria);
+    border-radius: 10px;
+}
+
+.formInput {
+    padding: 8px;
+}
