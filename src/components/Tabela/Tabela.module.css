@@ -1,0 +1,35 @@
+.title {
+    background-color: var(--corSecundaria);
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.table {
+    background-color: var(--corSecundaria);
+    width: 100%;;
+    border-collapse: collapse;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    color: #000;
+    border: 1px  #000;
+}
+
+.theadCell {
+    padding: 12px 0;
+    border-bottom: 2px solid #000;
+}
+
+.tbodyCell {
+    padding: 10px 0;
+}
+
+.tbodyLine {
+    border-bottom: 2px solid #000;
+}
+
+.tbodyLine:last-child {
+    border: none;
+}
+

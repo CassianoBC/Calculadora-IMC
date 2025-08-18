@@ -10,12 +10,12 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 360px;
     width: 100%;
     margin: 0 auto;
 }
 
 :root {
-    --corPrimaria: #d1d8e0;
-    --corSecundaria: #a55eea;
+    --corPrimaria: #ecf0f1;
+    --corSecundaria: #45aaf2;
 }
