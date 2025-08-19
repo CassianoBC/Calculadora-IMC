@@ -7,6 +7,9 @@
 
 body {
     background-color: var(--corPrimaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -15,7 +18,14 @@ body {
     margin: 0 auto;
 }
 
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 :root {
     --corPrimaria: #ecf0f1;
     --corSecundaria: #45aaf2;
+    --corTextos: #000;
 }

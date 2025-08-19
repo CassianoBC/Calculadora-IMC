@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <CalculadoraIMC />
-      <Tabela />
+      <div className="main-content">
+        <CalculadoraIMC />
+        <Tabela />
+      </div>
       <Footer />
     </>
   )

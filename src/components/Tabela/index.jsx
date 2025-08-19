@@ -19,7 +19,15 @@ export default function Tabela() {
             <tbody>
                 <tr className={styles.tbodyLine}>
                     <td className={styles.tbodyCell}>
-                        22.5
+                        18.5 ou menos
+                    </td>
+                    <td className={styles.tbodyCell}>
+                        Abaixo do Peso
+                    </td>
+                </tr>
+                <tr className={styles.tbodyLine}>
+                    <td className={styles.tbodyCell}>
+                        entre 18.5 e 24.9
                     </td>
                     <td className={styles.tbodyCell}>
                         Peso Normal
@@ -27,7 +35,7 @@ export default function Tabela() {
                 </tr>
                 <tr className={styles.tbodyLine}>
                     <td className={styles.tbodyCell}>
-                        27.5
+                        entre 25 e 29.9
                     </td>
                     <td className={styles.tbodyCell}>
                         Sobrepeso
@@ -35,7 +43,7 @@ export default function Tabela() {
                 </tr>
                 <tr className={styles.tbodyLine}>
                     <td className={styles.tbodyCell}>
-                        32.5
+                        entre 30 e 34.9
                     </td>
                     <td className={styles.tbodyCell}>
                         Obesidade
@@ -43,7 +51,7 @@ export default function Tabela() {
                 </tr>
                 <tr className={styles.tbodyLine}>
                     <td className={styles.tbodyCell}>
-                        37.5
+                        entre 35 e 39.9
                     </td>
                     <td className={styles.tbodyCell}>
                         Obesidade Severa
@@ -51,7 +59,7 @@ export default function Tabela() {
                 </tr>
                 <tr className={styles.tbodyLine}>
                     <td className={styles.tbodyCell}>
-                        42.5
+                        40 ou mais
                     </td>
                     <td className={styles.tbodyCell}>
                         Obesidade Mórbida
